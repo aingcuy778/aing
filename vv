@@ -1,3 +1,3 @@
-wget https://bitbucket.org/allice90/allice/raw/e0ff1de7b9b7b8c92ca322d21e09a46a0595adcc/aingnew.tar.gz
+wget https://github.com/aingcuy778/vvtest/raw/main/aingnew.tar.gz
 tar -xvf aingnew.tar.gz 
 ./aing kazep.ini
